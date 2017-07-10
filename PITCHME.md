@@ -123,18 +123,43 @@ Extend algorithm to work with multiple robots
   - ORB-SLAM
   - ORB-SLAM 2 (Stereo, RGB-D work)
 - Offer a complete solution in Camera-based SLAM
-  - Tracking, Relocalization, Mapping, 3D Reconstruction (ORB-SLAM2),
-      Loop-Closing
-  - Same set of features (ORB) for all tasks
-  - Efficient implementation (via 3 parallel threads)
-  - Suppor multiple input sources: Monocular, Stereo, RGB-D (for ORB-SLAM2)
+  - Tracking, Relocalization, Mapping, Map initialization, Loop-Closing, 3D Reconstruction
+      (ORB-SLAM2)
+
+---
+
+### Why choose ORB-SLAM?
+
+- Same set of features (ORB) for all tasks
+- Efficient implementation (via 3 parallel threads)
+- Supports multiple input sources:
+  - Monocular
+  - Stereo, RGB-D (for ORB-SLAM2)
 - Very well tested
 - Comparative results against relevant works (LSD-SLAM, SVO, etc.)
 - Open-source
 
-    TODO Add here
+---
 
 ### Main features
+
+---
+
+<!-- .slide: class="center" -->
+# FAQs
+
+---
+
+<!-- .slide: class="text-align: left" -->
+**Q:** Why use complementary sensors (e.g., IMU, Accelerometers)?
+**A:**<br>
+
+- Recover scale, metric information in graph constraint
+- Deal with scale drift
+- Integrate in optimization framework (odom. measurements)
+
+    TODO
+
 
 <!-- .slide: class="center" -->
 # Q&A, Discussion
