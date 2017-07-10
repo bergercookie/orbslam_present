@@ -20,6 +20,9 @@ Nikos Koukis<br>
 <!-- .slide: class="center" -->
 ## Presenter Information and Background
 
+note:
+The whole "Talk about you" should be about ~5min
+Practice.
 
 ---
 
@@ -40,14 +43,14 @@ Nikos Koukis<br>
 
 ### Presenter Information and Background
 
-- **2016 - GSoC Internship @MRPT:** [Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
+- **2016 - GSoC Internship @MRPT:**<br>[Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
   - Complete Graph-based SLAM framework
     - Generic/Modular design
     - Offline/Real-time use
     - 2D laser scans (use of ICP), optionally odometry
   - Robust Loop-Closure scheme - designed by E.  Olson
   - SLAM Error metric and visualization - designed by C. Stachniss
-- 2017 - GSoC Mentoring @MRPT: [Robust SLAM and localization method using artificial fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
+- **2017 - GSoC Mentoring @MRPT:**<br>[Robust SLAM and localization method using artificial fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
 
 
 ---?image=assets/figures/bulk/gui_main.png&size=contain
@@ -76,7 +79,7 @@ Extend algorithm to work with multiple robots
 ---
 
 <!-- .slide: class="center" -->
-# Simulation with 3 agents
+## Simulation with 3 agents
 
 ---?image=assets/figures/bulk/map_merger_node_3_robots.png&size=contain
 
@@ -88,8 +91,24 @@ Extend algorithm to work with multiple robots
 ---
 
 <!-- .slide: class="center" -->
-# Experiment - Around the pool
+### Experiment - Around the pool
 
 ---?image=assets/figures/bulk/online_integration_nickkoukubuntu2.png&size=contain
 
 ---
+
+<!-- .slide: class="center" -->
+#ORB-SLAM
+
+---
+
+### Overview
+
+% TODO - who did this
+% TODO - Where does the algorithm work
+% TODO - What's its main features
+
+---
+
+<!-- .slide: class="center" -->
+# Q&A, Discussion
