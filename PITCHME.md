@@ -50,7 +50,7 @@ Practice.
     - 2D laser scans (use of ICP), optionally odometry
   - Robust Loop-Closure scheme - designed by E.  Olson
   - SLAM Error metric and visualization - designed by C. Stachniss
-- **2017 - GSoC Mentoring @MRPT:**<br>[Robust SLAM and localization method using artificial fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
+- **2017 - GSoC Mentoring @MRPT:**<br>[Robust SLAM using artificial fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
 
 
 ---?image=assets/figures/bulk/gui_main.png&size=contain
@@ -109,6 +109,32 @@ Extend algorithm to work with multiple robots
 % TODO - What's its main features
 
 ---
+
+### Why choose ORB-SLAM?
+
+- Authors build **incrementally** on their previous works, other recent
+    Visual-SLAM techniques
+  - BoW (Bag of Words)
+  - DBoW2
+  - ORB:
+    - FAST detector
+    - BRIEF descriptor
+  - Rotation-invariant BRIEF
+  - ORB-SLAM
+  - ORB-SLAM 2 (Stereo, RGB-D work)
+- Offer a complete solution in Camera-based SLAM
+  - Tracking, Relocalization, Mapping, 3D Reconstruction (ORB-SLAM2),
+      Loop-Closing
+  - Same set of features (ORB) for all tasks
+  - Efficient implementation (via 3 parallel threads)
+  - Suppor multiple input sources: Monocular, Stereo, RGB-D (for ORB-SLAM2)
+- Very well tested
+- Comparative results against relevant works (LSD-SLAM, SVO, etc.)
+- Open-source
+
+    TODO Add here
+
+### Main features
 
 <!-- .slide: class="center" -->
 # Q&A, Discussion
