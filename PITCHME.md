@@ -18,10 +18,12 @@ Nikos Koukis<br>
 ---
 
 <!-- .slide: class="center" -->
-# Presenter Information and Background
+## Presenter Information and Background
 
 
 ---
+
+### Presenter Information and Background
 
 - Nikos Koukis
 - 5yr Diploma in Mechanical Engineering
@@ -36,14 +38,15 @@ Nikos Koukis<br>
 
 ---
 
-- 2016 - GSoC Internship @MRPT: [Design and development of a full graph-based SLAM strategy in MRPT](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
+### Presenter Information and Background
+
+- **2016 - GSoC Internship @MRPT:** [Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
   - Complete Graph-based SLAM framework
     - Generic/Modular design
     - Offline/Real-time use
-    - Integration with ROS
-    - Initial design handles 2D laser scans (use of ICP), optionally odometry
-  - Open-source implementation of robust Loop-Closure scheme - designed by E.  Olson
-  - Implementation of SLAM Error metric and visualization - designed by C. Stachniss
+    - 2D laser scans (use of ICP), optionally odometry
+  - Robust Loop-Closure scheme - designed by E.  Olson
+  - SLAM Error metric and visualization - designed by C. Stachniss
 - 2017 - GSoC Mentoring @MRPT: [Robust SLAM and localization method using artificial fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
 
 
@@ -53,6 +56,8 @@ Nikos Koukis<br>
 <!-- .slide: data-background-transition="none" -->
 
 ---
+
+### Presenter Information and Background
 
 Extend algorithm to work with multiple robots
 
@@ -67,6 +72,8 @@ Extend algorithm to work with multiple robots
 - Compute inter-robot frame transformation
   - Multi-hypothesis map-matching
   - Visual technique: Use of Harris Corners + Linear/Log Circular Patch descriptor
+
+---
 
 <!-- .slide: class="center" -->
 # Simulation with 3 agents
