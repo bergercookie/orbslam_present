@@ -1,6 +1,6 @@
-# Multi-robot graphSLAM thesis Presentation
+# Presentation on ORB-SLAM
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/bergercookie/mastert_present/master?grs=github)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/bergercookie/orbslam_present/master?grs=github)
 
-Current repository holds the GitPitch configuration for the presentation of the
-my master thesis in multi-robot graphSLAM.
+Current repo holds a draft presentation on the ORB-SLAM Visual SLAM framework.
+

@@ -1,4 +1,5 @@
-### ORB-SLAM
+<!-- .slide: class="center" -->
+### Presentation on ORB-SLAM
 
 <div style="color:gray; font-size: 1.3em">
 Nikos Koukis<br>
@@ -7,6 +8,7 @@ Nikos Koukis<br>
 ---
 
 ## Presentation Contents
+
 
 
 
