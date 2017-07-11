@@ -12,6 +12,7 @@ Nikos Koukis<br>
 - Presenter Information and Previous Work
 - ORB-SLAM:
   - Overview
+  - FAQ
   - Q&A
 
 
@@ -104,9 +105,15 @@ Extend algorithm to work with multiple robots
 
 ### Overview
 
-% TODO - who did this
-% TODO - Where does the algorithm work
-% TODO - What's its main features
+- Raul Mur-Artal, J. M. M. Montiel, Juan D. Tardos, 2015
+- Based on PTAM (Parallel Tracking and Mapping)
+- Same set of features (ORB) for all tasks
+- Supports multiple input sources:
+  - Monocular
+  - Stereo, RGB-D (for ORB-SLAM2)
+- Exhaustive testing on real-time datasets
+- Comparison with relevant works (LSD-SLAM, SVO, etc.)
+- Open-source
 
 ---
 
@@ -117,27 +124,16 @@ Extend algorithm to work with multiple robots
   - BoW (Bag of Words)
   - DBoW2
   - ORB:
-    - FAST detector
-    - BRIEF descriptor
-  - Rotation-invariant BRIEF
+    - Multiscale FAST detector
+    - Rotation-invariant BRIEF
   - ORB-SLAM
-  - ORB-SLAM 2 (Stereo, RGB-D work)
-- Offer a complete solution in Camera-based SLAM
+  - ORB-SLAM 2 (Stereo, RGB-D)
+- Offer complete solution in camera-based SLAM
   - Tracking, Relocalization, Mapping, Map initialization, Loop-Closing, 3D Reconstruction
       (ORB-SLAM2)
 
----
-
-### Why choose ORB-SLAM?
-
-- Same set of features (ORB) for all tasks
-- Efficient implementation (via 3 parallel threads)
-- Supports multiple input sources:
-  - Monocular
-  - Stereo, RGB-D (for ORB-SLAM2)
-- Very well tested
-- Comparative results against relevant works (LSD-SLAM, SVO, etc.)
-- Open-source
+Note:
+Also mention the use of ORB in place recognition & loop closing by Tardos:
 
 ---
 
@@ -150,16 +146,17 @@ Extend algorithm to work with multiple robots
 
 ---
 
-<!-- .slide: class="text-align: left" -->
-**Q:** Why use complementary sensors (e.g., IMU, Accelerometers)?
+**Q:** Why use complementary sensors (e.g., IMU, accelerometers)?
+
 **A:**<br>
 
 - Recover scale, metric information in graph constraint
 - Deal with scale drift
-- Integrate in optimization framework (odom. measurements)
+- Integrate in optimization framework (odom. measurements/additional edges)
 
-    TODO
 
+
+---
 
 <!-- .slide: class="center" -->
 # Q&A, Discussion
