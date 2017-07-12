@@ -46,15 +46,18 @@ Practice.
 
 #### Presenter Information and Background
 
-- **2016 - GSoC Internship @MRPT:**<br>[Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
-  - Complete Graph-based SLAM framework
-    - Generic/Modular design
-    - Offline/Real-time use
-    - 2D laser scans (use of ICP), optionally odometry
-  - Robust Loop-Closure scheme - E.  Olson
-  - SLAM Error metric and visualization - C. Stachniss
-- **2017 - GSoC Mentoring @MRPT:**<br>[Robust SLAM using fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
-
+<ul>
+  <li>**2016 - GSoC Internship @MRPT:**<br>[Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
+  <li>  Complete Graph-based SLAM framework
+  <ul>
+    <li> Generic/Modular design
+    <li> Offline/Real-time use
+    <li> 2D laser scans (use of ICP), optionally odometry
+  </ul>
+  <li> Robust Loop-Closure scheme - E.  Olson
+  <li> SLAM Error metric and visualization - C. Stachniss
+  <li> **2017 - GSoC Mentoring @MRPT:**<br>[Robust SLAM using fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
+</ul>
 
 ---?image=assets/figures/bulk/gui_main.png&size=contain
 <!-- .slide: data-background-transition="none" -->
@@ -79,12 +82,14 @@ Extend algorithm to work with multiple robots
 <hr>
 
 <div style="font-size:0.8em">
-<li>Fully distributed ad-hoc network</li>
-<li>Compute inter-robot frame transformation</li>
-  <ul>
-    <li>Multi-hypothesis map-matching</li>
-    <li>Visual technique: Use of Harris Corners + Linear/Log Circular Patch descriptor</li>
-  </ul>
+<ul>
+  <li>Fully distributed ad-hoc network</li>
+  <li>Compute inter-robot frame transformation</li>
+    <ul>
+      <li>Multi-hypothesis map-matching</li>
+      <li>Visual technique: Use of Harris Corners + Linear/Log Circular Patch descriptor</li>
+    </ul>
+</ul>
 </div>
 
 ---
