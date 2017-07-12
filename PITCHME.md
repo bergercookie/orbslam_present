@@ -31,22 +31,28 @@ Practice.
 
 #### Presenter Information and Background
 
-- Nikos Koukis
-- 5yr Diploma in Mechanical Engineering
-  + [National Technical university of Athens (NTUA)](www.mech.ntua.gr/en)
-  + Specialization in "Mechanical Design and Automatic Control"
-- Thesis
-  + Laboratory of Automatic Control & Machine and Plant
-    Regulation
-  + Supervisor: Prof. Kostas J. Kyriakopoulos
-  + Subject: *Investigation, Design, and Development of Single and Multi-robot
-      SLAM algorithms*
+<div style="font-size:0.8em">
+<ul>
+  <li>Nikos Koukis
+  <ul>
+  <li> 5yr Diploma in Mechanical Engineering [National Technical university of Athens (NTUA)](www.mech.ntua.gr/en)</li>
+  <ul>
+    <li> Specialization in "Mechanical Design and Automatic Control"</li>
+    <li>Thesis</li>
+    <ul>
+      <li>  Laboratory of Automatic Control & Machine and Plant Regulation</li>
+      <li>  Supervisor: Prof. Kostas J. Kyriakopoulos</li>
+      <li>  Subject: *Investigation, Design, and Development of Single and Multi-robot SLAM algorithms*</li>
+  </ul>
+  </ul>
+</ul>
+</div>
 
 ---
 
 #### Presenter Information and Background
 
-<div style="font-size:0.7em">
+<div style="font-size:0.8em">
 <ul>
   <li>**2016 - GSoC Internship @MRPT:**<br>[Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
   <li>  Complete Graph-based SLAM framework
