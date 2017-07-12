@@ -9,10 +9,12 @@ Nikos Koukis<br>
 
 ## Presentation Contents
 
-- Presenter Information and Previous Work
+- Presenter Information and Background
 - ORB-SLAM:
   - Overview
-  - FAQ
+  - Tracking
+  - Local Mapping
+  - Loop Detection
   - Q&A
 
 
