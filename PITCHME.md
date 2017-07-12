@@ -103,20 +103,6 @@ Extend algorithm to work with multiple robots
 
 ---
 
-### Overview
-
-- Raul Mur-Artal, J. M. M. Montiel, Juan D. Tardos, 2015
-- Based on PTAM (Parallel Tracking and Mapping)
-- Same set of features (ORB) for all tasks
-- Supports multiple input sources:
-  - Monocular
-  - Stereo, RGB-D (for ORB-SLAM2)
-- Exhaustive testing on real-time datasets
-- Comparison with relevant works (LSD-SLAM, SVO, etc.)
-- Open-source
-
----
-
 ### Why choose ORB-SLAM?
 
 - Authors build **incrementally** on their previous works, other recent
@@ -132,12 +118,70 @@ Extend algorithm to work with multiple robots
   - Tracking, Relocalization, Mapping, Map initialization, Loop-Closing, 3D Reconstruction
       (ORB-SLAM2)
 
-Note:
-Also mention the use of ORB in place recognition & loop closing by Tardos:
+
+---
+
+### Overview
+
+- Raul Mur-Artal, J. M. M. Montiel, Juan D. Tardos, 2015
+- Feature-based method
+- Based on PTAM (Parallel Tracking and Mapping)
+- Same set of features (ORB) for all tasks
+- Supports multiple input sources:
+  - Monocular
+  - Stereo, RGB-D (for ORB-SLAM2)
+- Exhaustive testing on well-known datasets
+- Comparison with relevant works (LSD-SLAM, SVO, etc.)
+- Open-source
 
 ---
 
 ### Main features
+
+- ORB features for all operations
+- Large-scale, real-time, lifelong operation
+- Loop closing via the *Essentail Graph*
+- Camera relocalization
+- Automatic Initialization procedure that works for both planar, non-planar
+    movement 
+
+---
+
+<!-- .slide: class="center" -->
+## Automatic Map Initialization
+
+##### Compute relative pose between two frames
+
+---
+
+# Tracking
+
+- ORB Extraction
+- Pose estimation - Previous frame
+- Pose estimation - Global relocalization
+- Track Local Map
+- New KF decision
+
+
+---
+
+## Local Mapping
+
+- Keyframe Insertion
+- Recent Map Points Culling
+- New Map Point Creation
+- Local BA
+- Local KF Culling
+
+
+---
+
+## Loop Closing
+
+- Loop Detection Candidates
+- Compute Similarity Transform
+- Loop Fusion
+- Essential Graph Optimization
 
 ---
 
@@ -146,7 +190,7 @@ Also mention the use of ORB in place recognition & loop closing by Tardos:
 
 ---
 
-**Q:** Why use complementary sensors (e.g., IMU, accelerometers)?
+**Q:**<br>Why use complementary sensors (e.g., IMU, accelerometers)?<br>
 
 **A:**<br>
 
