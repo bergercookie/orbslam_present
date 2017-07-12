@@ -67,17 +67,26 @@ Practice.
 
 Extend algorithm to work with multiple robots
 
-- Unknown starting agent positions
-- Arbitrary number of agents
-- Robust to communication, agent failure
-- Minimization of exchanged data between agents - Assume limited communications
+<div style="font-size:0.8em">
+<div 
+<ul>
+<li>Unknown starting agent positions</li>
+<li>Arbitrary number of agents</li>
+<li>Robust to communication, agent failure</li>
+<li>Minimization of exchanged data between agents - Assume limited communications</li>
+</ul>
+</div>
 
 <hr>
 
-- Fully distributed ad-hoc network
-- Compute inter-robot frame transformation
-  - Multi-hypothesis map-matching
-  - Visual technique: Use of Harris Corners + Linear/Log Circular Patch descriptor
+<div style="font-size:0.8em">
+<li>Fully distributed ad-hoc network</li>
+<li>Compute inter-robot frame transformation</li>
+  <ul>
+    <li>Multi-hypothesis map-matching</li>
+    <li>Visual technique: Use of Harris Corners + Linear/Log Circular Patch descriptor</li>
+  </ul>
+</div>
 
 ---
 
