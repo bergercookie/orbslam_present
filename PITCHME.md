@@ -125,8 +125,8 @@ Extend algorithm to work with multiple robots
 
 - Raul Mur-Artal, J. M. M. Montiel, Juan D. Tardos, 2015
 - Feature-based method
+- Uses ORB Features
 - Based on PTAM (Parallel Tracking and Mapping)
-- Same set of features (ORB) for all tasks
 - Supports multiple input sources:
   - Monocular
   - Stereo, RGB-D (for ORB-SLAM2)
@@ -138,12 +138,13 @@ Extend algorithm to work with multiple robots
 
 ### Main features
 
-- ORB features for all operations
-- Large-scale, real-time, lifelong operation
-- Loop closing via the *Essentail Graph*
-- Camera relocalization
-- Automatic Initialization procedure that works for both planar, non-planar
-    movement 
+- Same set of features (ORB) for all tasks |
+- Large-scale, real-time, lifelong operation |
+- Loop closing via the *Essentail Graph* |
+- Camera relocalization |
+- Automatic Initialization procedure |
+  - Planar |
+  - Non-planar movement  |
 
 ---
 
@@ -157,17 +158,18 @@ Extend algorithm to work with multiple robots
 # Tracking
 
 - ORB Extraction
-- Pose estimation - Previous frame
-- Pose estimation - Global relocalization
+- Pose estimation
+  - Previous frame
+  - Global relocalization
 - Track Local Map
 - New KF decision
 
 
 ---
 
-## Local Mapping
+# Local Mapping
 
-- Keyframe Insertion
+- KF Insertion
 - Recent Map Points Culling
 - New Map Point Creation
 - Local BA
@@ -176,7 +178,7 @@ Extend algorithm to work with multiple robots
 
 ---
 
-## Loop Closing
+# Loop Closing
 
 - Loop Detection Candidates
 - Compute Similarity Transform
@@ -186,21 +188,5 @@ Extend algorithm to work with multiple robots
 ---
 
 <!-- .slide: class="center" -->
-# FAQs
-
----
-
-**Q:**<br>Why use complementary sensors (e.g., IMU, accelerometers)?<br>
-
-**A:**<br>
-
-- Recover scale, metric information in graph constraint
-- Deal with scale drift
-- Integrate in optimization framework (odom. measurements/additional edges)
-
-
-
----
-
-<!-- .slide: class="center" -->
-# Q&A, Discussion
+# Q&A
+# Discussion
