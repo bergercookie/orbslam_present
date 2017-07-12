@@ -157,7 +157,7 @@ Extend algorithm to work with multiple robots
 - Feature-based method
 - Uses ORB Features
 - Based on PTAM (Parallel Tracking and Mapping)
-- Supports multiple input sources:
+- Supports multiple input sources
 - Exhaustive testing on well-known datasets
 - Comparison with relevant works (LSD-SLAM, SVO, etc.)
 - Open-source
