@@ -35,7 +35,7 @@ Practice.
 <ul>
   <li>Nikos Koukis
   <ul>
-  <li> 5yr Diploma in Mechanical Engineering [National Technical university of Athens (NTUA)](www.mech.ntua.gr/en)</li>
+  <li> 5yr Diploma in Mechanical Engineering - [National Technical university of Athens (NTUA)](www.mech.ntua.gr/en)</li>
   <ul>
     <li> Specialization in "Mechanical Design and Automatic Control"</li>
     <li>Thesis</li>
@@ -128,31 +128,36 @@ Extend algorithm to work with multiple robots
 
 ### Why choose ORB-SLAM?
 
-- Authors build **incrementally** on their previous works, other recent
-    Visual-SLAM techniques
-  - BoW (Bag of Words)
-  - DBoW2
-  - ORB:
-    - Multiscale FAST detector
-    - Rotation-invariant BRIEF
-  - ORB-SLAM
-  - ORB-SLAM 2 (Stereo, RGB-D)
-- Offer complete solution in camera-based SLAM
-  - Tracking, Relocalization, Mapping, Map initialization, Loop-Closing, 3D Reconstruction
-      (ORB-SLAM2)
-
+<div style="font-size:0.8em">
+<ul>
+  <li> Authors build **incrementally** on their previous works, other recent Visual-SLAM techniques</li>
+  <ul>
+    <li> BoW (Bag of Words)</li>
+    <li> DBoW2</li>
+    <li> ORB:</li>
+    <ul>
+      <li> Multiscale FAST detector</li>
+      <li> Rotation-invariant BRIEF</li>
+    </ul>
+    <li> ORB-SLAM</li>
+    <li> ORB-SLAM 2 (Stereo, RGB-D)</li>
+  </ul>
+  <li> Offer complete solution in camera-based SLAM</li>
+  <ul>
+    <li> Tracking, Relocalization, Mapping, Map initialization, Loop-Closing, 3D Reconstruction (ORB-SLAM2)</li>
+  </ul>
+</ul>
+</div>
 
 ---
 
 ### Overview
 
-- Raul Mur-Artal, J. M. M. Montiel, Juan D. Tardos, 2015
+- Mur-Artal, Montiel, Tardos ~2015
 - Feature-based method
 - Uses ORB Features
 - Based on PTAM (Parallel Tracking and Mapping)
 - Supports multiple input sources:
-  - Monocular
-  - Stereo, RGB-D (for ORB-SLAM2)
 - Exhaustive testing on well-known datasets
 - Comparison with relevant works (LSD-SLAM, SVO, etc.)
 - Open-source
