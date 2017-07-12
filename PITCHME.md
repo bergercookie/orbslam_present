@@ -122,7 +122,7 @@ Extend algorithm to work with multiple robots
 ---
 
 <!-- .slide: class="center" -->
-#ORB-SLAM
+# ORB-SLAM
 
 ---
 
@@ -178,7 +178,7 @@ Extend algorithm to work with multiple robots
 
 ---
 
-# Tracking
+## Tracking
 
 - ORB Extraction
 - Pose estimation
@@ -190,7 +190,7 @@ Extend algorithm to work with multiple robots
 
 ---
 
-# Local Mapping
+## Local Mapping
 
 - KF Insertion
 - Recent Map Points Culling
@@ -201,7 +201,7 @@ Extend algorithm to work with multiple robots
 
 ---
 
-# Loop Closing
+## Loop Closing
 
 - Loop Detection Candidates
 - Compute Similarity Transform
@@ -211,5 +211,5 @@ Extend algorithm to work with multiple robots
 ---
 
 <!-- .slide: class="center" -->
-# Q&A
-# Discussion
+## Q&A
+## Discussion
