@@ -29,7 +29,7 @@ Practice.
 
 ---
 
-### Presenter Information and Background
+#### Presenter Information and Background
 
 - Nikos Koukis
 - 5yr Diploma in Mechanical Engineering
@@ -44,7 +44,7 @@ Practice.
 
 ---
 
-### Presenter Information and Background
+#### Presenter Information and Background
 
 - **2016 - GSoC Internship @MRPT:**<br>[Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
   - Complete Graph-based SLAM framework
@@ -63,7 +63,7 @@ Practice.
 
 ---
 
-### Presenter Information and Background
+#### Presenter Information and Background
 
 Extend algorithm to work with multiple robots
 
