@@ -140,7 +140,7 @@ Extend algorithm to work with multiple robots
 
 - Same set of features (ORB) for all tasks |
 - Large-scale, real-time, lifelong operation |
-- Loop closing via the *Essentail Graph* |
+- Loop closing via the Essential Graph |
 - Camera relocalization |
 - Automatic Initialization procedure |
   - Planar |
