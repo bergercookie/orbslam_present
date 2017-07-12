@@ -46,6 +46,7 @@ Practice.
 
 #### Presenter Information and Background
 
+<div style="font-size:0.7em">
 <ul>
   <li>**2016 - GSoC Internship @MRPT:**<br>[Design and development of a full graph-based SLAM strategy](https://summerofcode.withgoogle.com/archive/2016/projects/6025600208732160/)
   <li>  Complete Graph-based SLAM framework
@@ -58,6 +59,7 @@ Practice.
   <li> SLAM Error metric and visualization - C. Stachniss
   <li> **2017 - GSoC Mentoring @MRPT:**<br>[Robust SLAM using fiducial markers and stereo vision](https://github.com/MRPT/GSoC2017-discussions/issues/5)
 </ul>
+</div>
 
 ---?image=assets/figures/bulk/gui_main.png&size=contain
 <!-- .slide: data-background-transition="none" -->
