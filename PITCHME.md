@@ -68,7 +68,6 @@ Practice.
 Extend algorithm to work with multiple robots
 
 <div style="font-size:0.8em">
-<div 
 <ul>
 <li>Unknown starting agent positions</li>
 <li>Arbitrary number of agents</li>
